@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ejercicio</title>
+</head>
+<body>
+    <h1>Curriculum Vitae</h1>
+    <form action="#" method="post"></form>
+        <fieldset>
+        <legend>Personal information:</legend>
+            <label>DUI <input type="text" placeholder="048134128"></label>
+            <label>First Name:<input type="text" placeholder="First Name"></label>
+            <label>Last Name:<input type="text" placeholder="Last Name"></label>
+            <label for="Gender">Gender</label>
+            <label><input type="radio" name="radio" value="M">M</label>   
+            <label><input type="radio" name="radio" value="F">F</label>     
+            <label>Contact Number:<input type="text"></label>
+            <label>Birthdate:<input type="date"></label>
+            <label>Civil Status
+                <select name="civilStatus" id="CivilStatus">
+                    <option value="single">Solito</option>
+                    <option value="noSingle">No Solito</option>
+                </select>
+            </label>
+            <label>Image:
+                <input type="file" >
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <textarea id="work" cols="30" rows="10" placeholder="Experience"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Academic Training</legend>
+            <textarea id="Academic" cols="30" rows="10" placeholder="Academic Training"></textarea>
+        </fieldset>
+        <fieldset>
+            <legend>Futher Training</legend>
+            <fieldset>
+                <legend>Programing Languages</legend>
+                <label ><input type="checkbox" name"Check[]"> Java</label>
+                <label ><input type="checkbox" name"Check[]"> C#</label>
+                <label ><input type="checkbox" name"Check[]"> Ptrhon</label>
+                <label ><input type="checkbox" name"Check[]" > C++</label>
+                <label ><input type="checkbox" name"Check[]" > Ruby</label>
+            </fieldset>
+            <fieldset>
+                <legend>Web Technologies</legend>
+                <label ><input type="checkbox" name"Check"> HTML5</label>
+                <label ><input type="checkbox" name"Check"> CSS/CSS3</label>
+                <label ><input type="checkbox" name"Check"> materialize Css</label>
+                <label ><input type="checkbox" name"Check" > Javascript</label>
+                <label ><input type="checkbox" name"Check" > Ruby</label>
+                <label ><input type="checkbox" name"Check" > Spring MVC</label>
+            </fieldset>
+        </fieldset>
+        <input type="submit" value="send">
+       <a href="index.html"> <input type="button" value="ok"></a>
+    </form>
+</body>
+</html>
